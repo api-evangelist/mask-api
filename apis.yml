@@ -1,32 +1,37 @@
 aid: mask-api
 name: Mask API
 description: >-
-  Welcome to Mask API! Mask API is a powerful and flexible tool designed to help
-  programmers and companies customize the response format of endpoint APIs. 
+  Mask API is a powerful and flexible tool designed to help programmers and
+  companies customize the response format of endpoint APIs, enabling selective
+  field filtering and data transformation in API responses.
 type: Index
-position: Consumer
-access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API
-created: '2025-02-12'
-modified: '2025-02-12'
+  - API Tools
+  - Response Filtering
+  - Developer Tools
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mask-api/refs/heads/main/apis.yml
+created: '2025-02-12'
+modified: '2026-03-16'
 specificationVersion: '0.19'
 apis:
   - aid: mask-api:mask-api
     name: Mask API
     description: >-
-      Welcome to Mask API! Mask API is a powerful and flexible tool designed to
-      help programmers and companies customize the response format of endpoint
-      APIs. 
-    humanURL: ' https://maskapi.dev/docs'
+      Mask API is a powerful and flexible tool designed to help programmers
+      and companies customize the response format of endpoint APIs, providing
+      control over which fields are returned in API responses.
+    humanURL: https://maskapi.dev/docs
     tags:
-      - API
+      - API Tools
+      - Developer Tools
     properties:
       - type: Documentation
-        url: ' https://maskapi.dev/docs'
+        url: https://maskapi.dev/docs
+common:
+  - type: Website
+    url: https://maskapi.dev/
 maintainers:
   - FN: Kin Lane
-    email: info@apievangelist.com
+    email: kin@apievangelist.com
