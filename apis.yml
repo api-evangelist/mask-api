@@ -30,6 +30,8 @@ apis:
       - type: Documentation
         url: https://maskapi.dev/docs
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Mask-API
   - type: Website
     url: https://maskapi.dev/
 maintainers:
