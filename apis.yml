@@ -53,6 +53,12 @@ apis:
       - type: Documentation
         url: https://maskapi.dev/docs
 common:
+  - type: Plans
+    url: plans/mask-api-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/mask-api-rate-limits.yml
+  - type: FinOps
+    url: finops/mask-api-finops.yml
   - type: DomainSecurity
     url: security/mask-api-domain-security.yml
   - type: GitHubOrganization
